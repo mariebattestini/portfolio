@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header h1 {
+  font-size: 8vw;
+}
+header p {
+  font-size: 4vw;
+}
+
+header {
+  background-image: linear-gradient(to right, rgba(33, 133, 208, 0.5), rgba(0, 0, 0, 0.7)), url(../img/header_image.avif);
+  background-size: cover;
+  padding: 4rem;
+  color: white;
+  text-align: center;
+}
+header .img {
+  display: flex;
+  justify-content: flex-end;
+}
+header img {
+  width: 5rem;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul {
+  font-size: 18px;
+}
+header nav li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav li a {
+  text-decoration: none;
+  color: white;
+}
+header h1 {
+  font-size: 100PX;
+  font-style: italic;
+}
+header p {
+  font-size: xx-large;
+}
+
+button {
+  background-color: rgb(33, 133, 208);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: color 0.3s, background-color 0.3s;
+}
+button:hover {
+  background-color: rgb(255, 175, 56);
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-container .container {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.flex-container .container-1 {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+}
+.flex-container img {
+  width: 5rem;
+}
+
+.flex-container-3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  width: 100%;
+  top: 120%;
+}
+
+.container-2 {
+  background-image: linear-gradient(to right, rgba(33, 133, 208, 0.5), rgba(0, 0, 0, 0.7)), url("../img/item1.avif");
+}
+
+.container-3 {
+  background-image: linear-gradient(to right, rgba(33, 133, 208, 0.5), rgba(0, 0, 0, 0.7)), url("../img/item2.avif");
+}
+
+.container-2,
+.container-3 {
+  background-size: cover;
+  height: 30rem;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.container-2 h3,
+.container-3 h3 {
+  text-align: center;
+}
+
+.flex-container-4 {
+  padding-top: 20%;
+}
+.flex-container-4 h3 {
+  font-weight: bold;
+}
+.flex-container-4 h3, .flex-container-4 p {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.flex-container-4 .container-4,
+.flex-container-4 .container-5 {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+.flex-container-4 .container-4,
+.flex-container-4 .container-5,
+.flex-container-4 .container-6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 3rem;
+}
+.flex-container-4 .container-4 img,
+.flex-container-4 .container-5 img,
+.flex-container-4 .container-6 img {
+  width: 50;
+  height: 50px;
+}
+.flex-container-4 .cards {
+  display: flex;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.container-7 {
+  background-image: linear-gradient(to right, rgba(33, 133, 208, 0.5), rgba(0, 0, 0, 0.7)), url("../img/main_image.avif");
+  background-size: cover;
+  height: 30rem;
+  color: white;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50rem;
+}
+
+h4 {
+  font-size: xx-large;
+  margin-left: -3rem;
+}
+
+p {
+  font-size: 20px;
+}
+
+.separator {
+  background-color: rgb(33, 133, 208);
+  height: 15px;
+}
+
+footer {
+  background-color: black;
+  font-size: 18px;
+  font-size: 18px;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 8rem;
+  justify-content: space-around;
+}
+
+.left img {
+  height: 7rem;
+  width: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container-3 {
+    flex-direction: column;
+  }
+  .container-2, .container-3 {
+    padding: 4% 2%;
+  }
+  .flex-container-4 {
+    padding-top: 98%;
+  }
+}/*# sourceMappingURL=styles.css.map */

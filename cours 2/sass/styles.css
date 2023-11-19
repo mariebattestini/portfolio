@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lyon.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+header h1 {
+  font-family: "Amatic SC";
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vH;
+}/*# sourceMappingURL=styles.css.map */

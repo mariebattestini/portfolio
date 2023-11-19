@@ -1,0 +1,223 @@
+/*/------------------------------BASE-----------------------/*/
+
+body{
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1, h2, h3{
+    font-weight: 500;
+    font-family: 'Work Sans';
+}
+
+img{
+    width: 60%;
+    max-width: 100%;
+}
+
+  /* Styles pour les titres (h4) */
+  h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour les paragraphes (p) */
+  p {
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Work Sans';
+  }
+
+/* -----------------------------PAGE------------------------------*/
+/* ----------------------------HEADER------------------------------*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lyon.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+h1{
+    font-family: 'Amatic SC';
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 70px;
+}
+
+header h2{
+    color: white;
+}
+
+/* Styles pour les liens de navigation */
+nav ul {
+    list-style: none;
+    display: flex; /* Utiliser flexbox pour aligner horizontalement les éléments */
+    justify-content: space-around; /* Espacement égal entre les éléments */
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white; /* Couleur du texte */
+    font-family: 'Work Sans';
+  }
+
+/* ----------------------------CUISINE LYONNAISE------------------------------*/
+
+.container-1{
+    display: flex;
+    align-items: center;
+}
+
+.container-1 img{
+    width: 25%;
+    padding: 1rem;
+}
+
+.right-text{
+    text-align: left;
+}
+
+/* ----------------------------PLATS CÉLÈBRES + MEILLEURS RESTAURANTS----------------------------------------*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-1 h2, .container-2 h2, .container-3 h2{
+    font-family: 'Amatic SC';
+    font-size: 40px;}
+
+
+    section {
+      text-align: center;
+      padding: 1rem;
+  }
+  
+  
+  /* Styles pour les titres */
+  section h2 {
+    font-weight: bold; /* Gras pour les titres */
+    margin-bottom: 20px;
+  }
+  
+  /* Styles pour les conteneurs des sections */
+  .container-2,
+  .container-3 {
+    display: flex; /* Utiliser flexbox pour aligner horizontalement */
+    flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
+    justify-content: space-around; /* Espacement égal entre les éléments */
+  }
+  
+  /* Styles pour les cartes (cards) */
+  .container-2 ul, .container-3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+  .container-2 li,
+  .container-3 li {
+    border: 1px solid #ddd; /* Bordure des cartes */
+    padding: 20px; /* Espacement interne des cartes */
+    margin: 10px; /* Espacement entre les cartes */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre douce */
+  }
+ 
+  /* Styles pour les titres des cartes */
+  .container-2 h3,
+  .container-3 h3 {
+    font-weight: bold; /* Gras pour les titres des cartes */
+    margin-top: 10px; /* Espacement entre le titre et le reste du contenu */
+  }
+
+/* ----------------------------FOOTER------------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: column; /* Utilisez une disposition en colonne pour empiler les éléments */
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Styles pour la partie gauche du footer */
+  .footer-left {
+    text-align: left;
+    order: 1; /* Changez l'ordre pour que ce soit à gauche */
+  }
+  
+  /* Styles pour la partie droite du footer */
+  .footer-right {
+    text-align: right;
+    order: 1; /* Changez l'ordre pour que ce soit à droite */
+  }
+  
+  .copyright {
+    background-color: #1c1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 13px;
+    margin-top: auto; /* Poussez la div du copyright vers le bas pour toucher le bas de la page */
+  }
+  
+  
+  /* Styles pour la div enveloppant le contenu du footer */
+  .footer-content {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Work Sans';
+  }
+  
+  /* Ajoutez une marge entre la partie gauche et droite */
+  .footer-left, .footer-right {
+    margin: 10px;
+  }
+  
+  .footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Ajoutez un espace entre les réseaux sociaux */
+  .follow-us p {
+    margin: 5px 0;
+  }
+  
+  /* Styles pour les liens des réseaux sociaux */
+  .link a {
+    text-decoration: underline; /* Ajoutez une décoration de lien aux réseaux sociaux */
+    color: #fff;
+    margin: 0 5px; /* Ajoutez une marge horizontale entre les icônes de réseau social */
+  }  
+
+  .left-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+/* ----------------------------RESPONSIVE------------------------------*/
+
+/* Styles pour les petits écrans
+@media screen and (max-width: 768px){
+
+    .row, .container-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-1 img{
+        width: 70%;
+        flex-direction: row;
+    }
+}
+     */

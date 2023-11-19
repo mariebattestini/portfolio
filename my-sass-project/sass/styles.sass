@@ -1,0 +1,104 @@
+@import '_variables'
+@import '_base'
+
+header
+    background-color: $background-color
+    nav
+        display: flex
+        align-items: center
+        height: 80px
+        width: 100%
+        margin: auto
+        img
+            width: 7rem
+        ul
+            list-style: none
+            display: flex
+            align-items: center
+            font-family: $font-family
+            font-size: 18px
+            padding: 0
+            gap: 20px
+            li
+                a
+                    text-decoration: none
+                    display: flex
+                    color: #013287
+
+section.banner
+    display: flex
+    flex-direction: column
+    align-items: center
+    img#slider-img
+        width: 1800px
+        object-fit: cover
+        height: 600px
+        padding: 2rem
+    h1
+        background: linear-gradient(to right, #013287, #8f94fb)
+        width: 87%
+        padding: 5rem
+        border-radius: 1rem
+        color: white
+        display: flex
+        align-items: center
+        justify-content: space-around
+        font-weight: 500
+
+h2
+    display: flex
+    align-items: center
+    justify-content: space-around
+    padding: 1rem
+    border-bottom: solid #e6e6e6
+    margin-inline: 200px
+
+.cards
+    display: flex
+    margin-inline: 450px
+
+.card
+    text-align: center
+    padding: 20px
+    border: 1px solid #ccc
+    max-width: 300px
+    margin: 0 auto
+    box-shadow: $box-shadow-color
+    margin-bottom: 20px
+    img
+        height: 300px
+        width: 300Px
+        object-fit: cover
+        p
+            margin: 0
+
+.card-2
+    display: flex
+    justify-content: center
+    gap: 50px
+    border: 1px solid #ccc
+    margin: 50px
+    box-shadow: $box-shadow-color
+    width: fit-content
+    margin-inline: auto
+
+    img
+        height: 200px
+        width: 200px
+        border-radius: 100%
+        object-fit: cover
+        p
+            margin: 0
+
+.team-member
+    text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 20px
+
+footer
+    background-color: $background-color
+    display: flex
+    align-items: center
+    justify-content: space-around
